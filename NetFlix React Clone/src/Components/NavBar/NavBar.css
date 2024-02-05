@@ -1,0 +1,78 @@
+.navBar{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+   width:100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  height: 68px;
+  background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+  transition: all 1s;
+}
+
+#nonetransp{
+  background: #000;
+
+}
+
+#transp{
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 1) 22%, rgba(202, 223, 242, 0) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 1) 22%, rgba(202, 223, 242, 0) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 22%, rgba(202, 223, 242, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#cadff2", GradientType=1);
+}
+
+.logo{
+  margin-right: 1.5rem;
+  max-width: 90px;
+  
+}
+
+.navigation {
+  display: flex;
+}
+
+.primary-navigation{
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.primary-navigation li{
+  font-size: 0.9rem;
+  list-style: none;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.primary-navigation li:hover{
+  opacity: 0.9  ;
+  cursor: pointer;
+}
+.secondary-navigation{
+
+  display: flex;
+  
+  position: fixed;
+  right: 60px;
+  }
+
+  
+.avatar{
+  border-radius: 5px;
+  width: 2.1rem;
+}
+
+.nav-search{
+  font-size: 1.8rem;
+  margin-right: 1.4rem;
+  
+}
+.nav-bell{
+  font-size: 1.5rem;
+  margin-right: 1.4rem;
+
+}
